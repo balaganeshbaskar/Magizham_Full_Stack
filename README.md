@@ -1,2 +1,3 @@
 # Magizham_Full_Stack
  
+ADD SCREENSHOTS AND DESCRIPTIONS HERE!!
