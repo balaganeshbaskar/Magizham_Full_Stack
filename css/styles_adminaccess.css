@@ -1,0 +1,85 @@
+body
+{
+  background-color: white;
+
+  margin-bottom: 100px;
+}
+
+
+.rightside
+{
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.logo_centered
+{
+  width: 100%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.logo_centered img
+{
+  width: 500px;
+  /* border: 1px solid red; */
+}
+
+.teadata
+{
+    border: 2px solid black;
+}
+
+.teacher_table
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: 1px solid black; */
+    padding: 20px 50px 50px 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 400px;
+    overflow-y:auto;
+}
+
+.table_heading
+{
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
+.text_center
+{
+    text-align: center;
+}
+
+.text_left
+{
+    text-align: left;
+}
+
+
+.account_table
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: 1px solid black; */
+    padding: 20px 50px 50px 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 400px;
+    overflow-y:auto;
+}
+
+#new_staff_modal .modal-body
+{
+    padding: 70px;
+}
+
+.label
+{
+    font-weight: bold;
+    margin-top: 5px;
+}

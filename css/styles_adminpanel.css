@@ -1,0 +1,208 @@
+
+body
+{
+  background-color: white;
+}
+
+
+#output
+{
+  width: 100%; 
+  height: 250px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+ .container
+ {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+
+ }
+
+ .rightside
+ {
+ 	text-align: right;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+
+
+  .leftside
+ {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+
+ .title
+ {
+ 	text-align: center;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+
+
+ .content
+ {
+ 	margin-top: 50px;
+ 	margin-bottom: 20px;
+ }
+
+ .card-header
+ {
+ 	text-align: left;
+ 	color: black;
+ 	text-decoration: none;
+   background-color: white;
+   border-radius: 5px;
+ }
+
+ .card-header:hover
+ {
+ 	color: black;
+ 	text-decoration: none;
+ }
+
+
+.studata
+{
+	font-size: 17px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  /*z-index: -1;  Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%; /* Could be more or less, depending on screen size */
+}
+
+
+.accordion
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#deadline_modal .modal-body
+{
+  height: 550px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+#deadline_modal .label
+{
+  color: black !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#deadline_modal .row
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#deadline_modal .selected_subjects
+{
+  color: grey;
+  opacity: 0.8;
+}
+
+#deadline_modal .selected_grade
+{
+  color: grey;
+  opacity: 0.8;
+}
+
+#deadline_modal .selected_date
+{
+  color: grey;
+  opacity: 0.8;
+}
+
+
+#deadline_modal .dl_staff_name
+{
+  color: black;
+}
+
+#attendance_deadline_counter, #pq_deadline_counter, #tq_deadline_counter, #sq_deadline_counter, #eq_deadline_counter , #iq_deadline_counter , #lang1_deadline_counter , #lang2_deadline_counter , #math_deadline_counter , #evs_deadline_counter , #science_deadline_counter , #ss_deadline_counter , #art_deadline_counter
+{
+  color: red !important;
+  float:right;
+}
+
+.logo_centered
+{
+  width: 100%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.logo_centered img
+{
+  width: 500px;
+  /* border: 1px solid red; */
+}
+
+#studentdata, #pq_deadline_counter_table
+{
+  background-color: white;
+}
+
+.card
+{
+  /* background-color: #f195ed; */
+
+  border-radius: 10px;
+  /* box-shadow: 0 10px 12px rgba(0,0,0,0.2); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* padding: 30px; */
+  margin-top: 20px; 
+  /* background: white;  fallback for old browsers */
+  /* background-image: linear-gradient(to right,#9b1495, #382c98); */
+  /* background-image: linear-gradient(to right,#e42ddc, #5748ca); */
+  color: black;
+  /* min-height: 100px; */
+}
+
+.card_new_try {
+  border-radius: 10px;
+  /* box-shadow: 0 10px 12px rgba(0,0,0,0.2); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* padding: 30px; */
+  margin-top: 10px; 
+  /* margin-bottom: 20px;  */
+  background: white;  /* fallback for old browsers */
+  /* background-image: linear-gradient(to right,#9b1495, #382c98); */
+  /* background-image: linear-gradient(to right,#e42ddc, #5748ca); */
+  color: black;
+  /* min-height: 100px; */
+
+}

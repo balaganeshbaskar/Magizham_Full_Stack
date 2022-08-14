@@ -1,0 +1,436 @@
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+/*styling for the brand image starts here*/
+.brand-molc {
+  text-align: center;
+}
+
+
+
+@media screen and (min-width: 769px) {
+    .brand-molc-image {
+    width: 192px;
+    height: 100px;
+
+  }
+} 
+
+@media screen and (max-width: 768px) {
+    .brand-molc-image {
+    width: 96px;
+    height: 50px;
+  }
+}
+
+
+
+
+/*styling for the brand image ends here*/
+
+/*styling for navbar starts here*/
+@media screen and (min-width: 769px) {
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+  }
+}
+@media screen and (max-width: 768px) {
+    .navbar-nav.navbar-center {
+        border-radius: 5%;
+          box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+          padding: 20px;
+          text-align: right;
+
+  }
+}
+/*----------------------------------------------------------------*/
+@media screen and (min-width: 769px) {
+    .nav-link-external-style {
+    font-weight: 700;
+    font-size: 30px;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+    .nav-link-external-style {
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+
+/*----------------------------------------------------------------*/
+@media screen and (min-width: 767px) {
+    .navbar-brand {
+        padding: 0px;
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        padding: 0px;
+    }
+}
+
+/*styling for navbar ends here here */
+
+/*----------------------------------------------------------------*/
+/*styling for enrollment form starts here*/
+
+#output{
+  width: 100%; 
+  height: 250px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.align-items-center{
+  margin-top: 50px; margin-bottom: 50px;
+}
+
+.enrollment-card{
+    padding: 40px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+
+.form-group {
+  padding:  10px;
+}
+
+.form-check {
+  margin-left: 10px;
+  color: gray;
+}
+
+/*styling for enrollment form ends here*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*styling for about us starts herer*/
+
+.about-us {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 767px) {
+    .about-us {
+        padding: 20px;
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .about-us {
+        padding: 10px;
+    }
+}
+/*----------------------------------------------------------------*/
+
+.about-us-header {
+  text-align: center;
+  color: #9b1495;
+  position: relative;
+}
+ 
+.about-us-header::after {
+  content: "";
+  position: absolute;
+  border-top: 5px solid #9b1495;
+  border-radius: 5px;
+  left: 48%;
+  bottom: 0;
+  width: 4%;
+  height: 0px;
+}
+
+@media screen and (min-width: 769px) {
+    .about-us-header::after  {
+    left: 48%;
+    bottom: 0;
+    width: 4%;
+    height: 0px;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+    .about-us-header::after  {
+    left: 47%;
+    bottom: 0;
+    width: 7%;
+    height: 0px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+    .about-us-header {
+    font-weight: 700;
+    font-size: 40px;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+    .about-us-header {
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+/*----------------------------------------------------------------*/
+
+/*styling for about us ends here*/
+/*styling for contact starts here*/
+.contact-us {
+  margin: 10px;
+}
+
+@media screen and (min-width: 767px) {
+    .contact-us {
+        padding: 30px;
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .contact-us {
+        padding: 20px;
+    }
+}
+
+.contact-us-image {
+  width: 95%;
+  border-radius: 5%;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+  margin: 10px;
+}
+
+.contact-us-content {
+  text-align: center;
+}
+
+.bi {
+  color: #b200e3;
+}
+
+
+@media screen and (min-width: 769px) {
+    .contact-us-content-heading {
+    font-weight: 700;
+    font-size: 25px;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+    .contact-us-content-heading{
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+
+.contact-us-content {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.top-margin {
+  margin-top: 40px;
+}
+/*----------------------------------------------------------------*/
+/*styling for contact ends here*/
+/*styling for footer starts here*/
+.site-footer
+{
+  background-color:white;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color: green;
+  opacity:1
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color: #b200e3;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px;
+  font-weight: 700;
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:white;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color: black;
+  transition:  0.3s;
+  font-weight: 700;
+  text-decoration:none;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color: #b200e3;
+  text-decoration:none;
+
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0;
+}
+
+.copyright-text a {
+  color: black;
+  transition:  0.3s;
+  font-weight: 700;
+  text-decoration:none;
+}
+
+.copyright-text a:active,.copyright-text a:focus,.copyright-text a:hover
+{
+  color: #b200e3;
+  text-decoration:none;
+}
+
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer{
+    text-align: center;
+  }
+}
+
+
+
+
+/*styling for footer ends here
